@@ -1,0 +1,214 @@
+/* FONTS */
+body,
+h1,
+h3,
+h4,
+h5,
+h6,
+p {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+	font-weight: 800;
+	font-size: 2rem;
+}
+
+.bold-it {
+	font-weight: 600;
+}
+
+p {
+	font-size: 1rem;
+}
+
+
+/* HEADER */
+.navbar {
+	color: black;
+	background: white;
+}
+
+.navbar .navbar-toggler {
+	color: rgba(0,0,0,1);
+	border: rgba(0,0,0,0);
+}
+
+.navbar-nav {
+	color: black;
+	font-weight: 200;
+}
+
+
+/* MASTHEAD */
+.masthead .container-fluid {
+	height: 100vh;
+	background:
+		linear-gradient(
+			rgba(0, 0, 0, 0.2),
+			rgba(0, 0, 0, 0.2)
+		),
+		url('../img/masthead-sm-01.jpg');
+	background-attachment: scroll;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.masthead .container-fluid .title {
+	color: white;
+	font-size: 2.4rem;
+	font-weight: 800;
+	letter-spacing: .1rem;
+	margin-bottom: -.5rem;
+}
+
+.masthead .container-fluid .subtitle {
+	color: white;
+	font-size: 1.1rem;
+	font-weight: 200;
+	letter-spacing: .3rem;
+}
+
+.masthead .container-fluid p a {
+	color: white;
+	text-decoration: none;
+	font-size: .8rem;
+	letter-spacing: .1rem;
+}
+
+.masthead .container-fluid i {
+	color: white;
+	opacity: .8;
+}
+
+
+
+/* GRAPHIC BREAK */
+.graphic-01,
+.graphic-02 {
+	background: #FAFAFA;
+	height: 35vh;
+}
+
+.graphic-01 div div div h1,
+.graphic-02 div div div h1{
+	font-size: 1.3rem;
+	font-weight: 400;
+	background: rgb(40,46,42);
+	background: linear-gradient(90deg, rgba(40,46,42,1) 0%, rgba(39,54,47,1) 10%, rgba(50,119,88,1) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+
+
+/* DESIGN */
+.coding {
+	background: white;
+}
+
+.coding div div div div h1 a {
+	color: black;
+	text-decoration: none;
+}
+
+/* PHOTO */
+.media {
+	background: white;
+}
+
+
+/* ABOUT */
+.about-me {
+	background: #FAFAFA;
+}
+
+
+/* CONTACT */
+.contact {
+	background: white;
+}
+
+
+/* FOOTER */
+footer {
+	background-color: #2d2d2d;
+	min-height: 30vh;
+}
+
+footer div div div p {
+	color: white;
+	font-size: 1.1rem;
+}
+
+footer div div div a,
+footer div div div a:hover {
+	color: white;
+	font-size: .9rem;
+	font-weight: 200;
+}
+
+footer div div div.social-icons a i {
+	font-size: 30px;
+}
+
+footer div div div.copyright h1 {
+	color: white;
+	font-size: 1.4rem;
+}
+
+footer div div div.copyright p {
+	font-size: .8rem;
+}
+
+/* Media Queries */
+
+@media (min-width: 768px) {
+
+	.masthead .container-fluid {
+		background: linear-gradient(
+			rgba(0, 0, 0, 0.3),
+			rgba(0, 0, 0, 0.3)
+		),
+		url('../img/masthead-lg-02.jpg');
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+
+	}
+
+	.masthead .container-fluid .row {
+		transform: translateY(5vh);
+	}
+
+	.masthead .container-fluid .title {
+		font-size: 4rem;
+		margin-bottom: -1rem;
+	}
+
+	.masthead .container-fluid .subtitle {
+		font-size: 1.8rem;
+		letter-spacing: .5rem;
+	}
+
+	.masthead .container-fluid p a {
+		font-size: 1.2rem;
+	}
+
+	.masthead .container-fluid i {
+		font-size: 1.2rem;
+	}
+
+	.graphic-01,
+	.graphic-02 {
+		height: 50vh;
+	}
+
+	.graphic-01 div div div h1,
+	.graphic-02 div div div h1 {
+		font-size: 2.5rem;
+	}
+
+}
