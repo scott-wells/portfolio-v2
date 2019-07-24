@@ -14,6 +14,10 @@ h1 {
 	font-size: 2rem;
 }
 
+h2 {
+	font-weight: 800;
+}
+
 .bold-it {
 	font-weight: 600;
 }
@@ -87,25 +91,34 @@ p {
 /* GRAPHIC BREAK */
 .graphic-01,
 .graphic-02 {
-	background: #FAFAFA;
-	height: 35vh;
+	background: rgb(21, 38, 32);
 }
 
-.graphic-01 div div div h1,
-.graphic-02 div div div h1{
-	font-size: 1.3rem;
+.graphic-01 .graphic-text,
+.graphic-02 .graphic-text {
+	color: white;
+	font-size: 2.3rem;
 	font-weight: 400;
-	background: rgb(40,46,42);
-	background: linear-gradient(90deg, rgba(40,46,42,1) 0%, rgba(39,54,47,1) 10%, rgba(50,119,88,1) 100%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	
+
+}
+.graphic-01 .graphic-btn,
+.graphic-02 .graphic-btn {
+	color: white;
 }
 
 
 
 /* DESIGN */
 .coding {
-	background: white;
+	background: rgb(243, 240, 236);
+}
+
+.coding h1 {
+	font-size: 3rem;
+	font-weight: 800;
+	letter-spacing: .1rem;
+	margin-top: 80px;
 }
 
 .coding div div div div h1 a {
@@ -118,10 +131,14 @@ p {
 	background: white;
 }
 
+.media .row {
+	margin: 50px;
+}
+
 
 /* ABOUT */
 .about-me {
-	background: #FAFAFA;
+	background: rgb(243, 240, 236);
 }
 
 
