@@ -92,16 +92,16 @@ p {
 .graphic-01,
 .graphic-02 {
 	background: rgb(21, 38, 32);
+	height: 25vh;
 }
 
 .graphic-01 .graphic-text,
 .graphic-02 .graphic-text {
 	color: white;
-	font-size: 2.3rem;
+	font-size: 1.5rem;
 	font-weight: 400;
-	
-
 }
+
 .graphic-01 .graphic-btn,
 .graphic-02 .graphic-btn {
 	color: white;
@@ -115,10 +115,9 @@ p {
 }
 
 .coding h1 {
-	font-size: 3rem;
 	font-weight: 800;
 	letter-spacing: .1rem;
-	margin-top: 80px;
+	margin-top: 40px;
 }
 
 .coding div div div div h1 a {
@@ -220,12 +219,26 @@ footer div div div.copyright p {
 
 	.graphic-01,
 	.graphic-02 {
-		height: 50vh;
+		height: 35vh;
 	}
 
-	.graphic-01 div div div h1,
-	.graphic-02 div div div h1 {
-		font-size: 2.5rem;
+	.graphic-01 .graphic-text,
+	.graphic-02 .graphic-text {
+		font-size: 1.8rem;
 	}
 
+	.coding h1 {
+		font-size: 3rem;
+		font-weight: 800;
+		letter-spacing: .1rem;
+		margin-top: 80px;
+	}
+	
+}
+
+@media (min-width: 1200px) {
+	.graphic-01 .graphic-text,
+	.graphic-02 .graphic-text {
+		font-size: 2.2rem;
+	}
 }
