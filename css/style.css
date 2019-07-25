@@ -11,7 +11,7 @@ p {
 
 h1 {
 	font-weight: 800;
-	font-size: 2rem;
+	font-size: 1.8rem;
 }
 
 h2 {
@@ -92,13 +92,12 @@ p {
 .graphic-01,
 .graphic-02 {
 	background: rgb(21, 38, 32);
-	height: 25vh;
 }
 
 .graphic-01 .graphic-text,
 .graphic-02 .graphic-text {
 	color: white;
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 	font-weight: 400;
 }
 
@@ -217,18 +216,13 @@ footer div div div.copyright p {
 		font-size: 1.2rem;
 	}
 
-	.graphic-01,
-	.graphic-02 {
-		height: 35vh;
-	}
-
 	.graphic-01 .graphic-text,
 	.graphic-02 .graphic-text {
 		font-size: 1.8rem;
 	}
 
 	.coding h1 {
-		font-size: 3rem;
+		font-size: 2.5rem;
 		font-weight: 800;
 		letter-spacing: .1rem;
 		margin-top: 80px;
