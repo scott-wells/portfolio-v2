@@ -1,350 +1,325 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-		<!--Google Fonts-->
-		<link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,600,800,900" rel="stylesheet">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-		<!--Icon Fonts-->
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<!--Google Fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,600,800,900" rel="stylesheet">
 
-		<!--Add Boostrap CSS CDN Link-->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+	<!--Icon Fonts-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
-		<!--My CSS Link-->
-		<link rel="stylesheet" href="css/style.css">
+	<!--Add Boostrap CSS CDN Link-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
 
-		<!--Add required JS files for Bootstrap and jQuery Form Validator-->
-		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<!--My CSS Link-->
+	<link rel="stylesheet" href="css/style.css">
 
-		<!-- jQuery Form, Additional Methods, Validate -->
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+	<!--Add required JS files for Bootstrap and jQuery Form Validator-->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-		<!-- Your JavaScript Form Validator -->
-		<script src="js/form-validate.js"></script>
+	<!-- jQuery Form, Additional Methods, Validate -->
+	<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script> -->
 
-		<!-- Google reCAPTCHA -->
-		<script src='https://www.google.com/recaptcha/api.js'></script>
+	<!-- Your JavaScript Form Validator -->
+	<!-- <script src="js/form-validate.js"></script> -->
 
-		<title>Scott Wells - Developer & Designer</title>
-	</head>
+	<!-- Google reCAPTCHA -->
+	<!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
 
-	<body>
+	<title>Scott Wells - Developer & Designer</title>
+</head>
 
-		<!--Navigation-->
-		<header>
-			<nav class="navbar navbar-expand-lg navbar-light shadow-sm fixed-top font-weight-bold">
-				<a class="navbar-brand pl-md-4" href="#top">SW</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-					<i class="fas fa-bars"></i>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarNav">
-					<ul class="navbar-nav ml-auto pr-md-4">
-						<li class="nav-item active">
-							<a class="nav-link" href="#top">Home</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#work">Work</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#design">Design</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#about">About</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#contact">Contact</a>
-						</li>
-					</ul>
-				</div>
-			</nav>
-		</header>
+<body>
 
-		<!--Masthead-->
-		<section id="top" class="masthead">
-				<div class="container-fluid d-flex align-items-center">
-					<div class="row col d-flex justify-content-center text-center mx-auto">
-						<div class="col">
-							<p class="title">SCOTT WELLS</p>
-							<p class="subtitle mb-4 mb-md-5">Developer + Designer</p>
-							<p class="bold-it mb-1"><a href="#work">SCROLL DOWN</a></p>
-							<i class="fas fa-caret-down"></i>
-						</div>
-					</div>
-				</div>
-		</section>
+	<!--Navigation-->
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light shadow-sm fixed-top font-weight-bold">
+			<a class="navbar-brand pl-md-4" href="#top">SW</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<i class="fas fa-bars"></i>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ml-auto pr-md-4">
+					<li class="nav-item active">
+						<a class="nav-link" href="#top">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#work">Work</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#design">Design</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#about">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
 
-		<!--Graphic Break-->
-		<section class="graphic-01"> 
-			<div class="row d-flex justify-content-center align-items-center text-center py-5">
-				<div class="col-11 col-md-8 col-lg-6">
-					<p class="graphic-text">Passionate about developing useful, engaging applications that serve the <em><strong>common good.</strong></em></p>
-					<div class="row d-flex justify-content-center">
-						<div class="col-6">
-							<a class="graphic-btn btn btn-block btn-outline-light mt-2" href="#contact" role="button">Learn More</a>
-						</div>
-					</div>
+	<!--Masthead-->
+	<section id="top" class="masthead">
+		<div class="container-fluid d-flex align-items-center">
+			<div class="row col d-flex justify-content-center text-center mx-auto">
+				<div class="col">
+					<p class="title">SCOTT WELLS</p>
+					<p class="subtitle mb-4 mb-md-5">Developer + Designer</p>
+					<p class="bold-it mb-1"><a href="#work">SCROLL DOWN</a></p>
+					<i class="fas fa-caret-down"></i>
 				</div>
 			</div>
-		</section>
+		</div>
+	</section>
 
-		<!--DESIGN-->
-		<section id="work" class="coding">
-			<div class="row d-flex justify-content-center align-items-center pt-4">
-				<h1>FEATURED WORK</h1>
-			</div>
-			<div class="row d-flex justify-content-center align-items-center p-5">
-				<div class="col-lg-7 col-xl-6 pr-4 mb-5">
-				  <div class="thumbnail">
-					<img class="img-fluid" src="https://res.cloudinary.com/abq-trails/image/upload/v1563667096/scott-wells/img/coding-abq-lg.jpg" alt="design work abq trails app"/>
-				  </div>
-				</div>
-				<div class="col-lg-5 col-xl-4">
-					<h2 class="mb-3">ABQ Trails</h2>
-					<p><span class="bold-it">An app that helps local residents</span> find popular hikes, or trails
-						near their location, with the ability search, tag and rate them.</p>
-					<p>New Mexico is known for it's stunning, natural landscapes, and Albuquerque is no exception.
-						This app serves to help the community explore their neighborhoods, connect with friends, and
-						encourage an active lifestyle.</p>
-					<p class="bold-it">See More >>></p>
-				</div>
-			</div>
-			<hr/>
-			<div class="row d-flex justify-content-center align-items-center p-5">
-				<div class="col-lg-7 col-xl-6 pr-4 mb-5">
-				  <div class="thumbnail">
-					<img class="img-fluid" src="https://res.cloudinary.com/abq-trails/image/upload/v1563667096/scott-wells/img/coding-scottw-lg.jpg" alt="design work scott wells redesign"/>
-				  </div>
-				</div>	
-				<div class="col-lg-5 col-xl-4">
-					<h2 class="mb-3">Scott Wells<br/> Portfolio Redesign</h2>
-					<p><span class="bold-it">I have been a designer and photographer</span> for over ten years. Having
-						recently become a developer, I needed to update my portfolio to reflect my new work.</p>
-					<p>This site uses a Bootstrap framework for the content layout, and employs custom styling for the
-						fonts, colors, and icons. Javascript is also used to give key content on the website some added flair.</p>
-					<p class="bold-it">See More >>></p>
-				</div>
-			</div>
-			<hr/>
-			<div class="row d-flex justify-content-center align-items-center p-5">
-				<div class="col-lg-7 col-xl-6 pr-4 mb-5">
-				  <div class="thumbnail">
-					<img class="img-fluid" src="https://res.cloudinary.com/abq-trails/image/upload/v1563667098/scott-wells/img/coding-ewp-lg.jpg" alt="design work elizabeth wells photography"/>
-				  </div>
-				</div>	
-				<div class="col-lg-5 col-xl-4">
-					<h2 class="mb-3">Elizabeth Wells Photography</h2>
-					<p><span class="bold-it">I was contracted to rebrand</span> and design a mobile-responsive
-						website that could be easily updated, and remain content friendly. I chose to design it in
-						Squarespace due to their emphasis on performance and visual design, which is perfect for a
-						photography business.</p>
-					<p class="bold-it">See More >>></p>
-				</div>
-			</div>
-		</section> <!-- end of design -->
-
-		<!--Graphic Break-->
-		<section class="graphic-02">
-			<div class="row d-flex justify-content-center align-items-center text-center py-5">
-				<div class="col-11 col-md-8 col-lg-6">
-					<p class="graphic-text">Certified, full stack developer and designer. <em><strong>Ready to help you</strong></em> with your next digital project!</p>
-					<div class="row d-flex justify-content-center">
-						<div class="col-6">
-							<a class="graphic-btn btn btn-block btn-outline-light mt-2" href="#contact" role="button">Learn More</a>
-						</div>
+	<!--Graphic Break-->
+	<section class="graphic-01">
+		<div class="row d-flex justify-content-center align-items-center text-center py-5">
+			<div class="col-11 col-md-8 col-lg-6">
+				<p class="graphic-text">Passionate about developing useful, engaging applications that serve the <em><strong>common good.</strong></em></p>
+				<div class="row d-flex justify-content-center">
+					<div class="col-6">
+						<a class="graphic-btn btn btn-block btn-outline-light mt-2" href="#contact" role="button">Learn More</a>
 					</div>
 				</div>
 			</div>
-		</section>
+		</div>
+	</section>
 
-		<!--More Media-->
-		<section id="design" class="media"></div>
-			<div class="container-fluid">
-				<div class="row d-flex justify-content-center mx-auto py-5">
-					<div class="media-slider col-lg-10 col-xl-8">
-						<div id="media-carousel" class="carousel slide" data-ride="carousel">
-							<ol class="carousel-indicators">
-								<li data-target="#media-carousel" data-slide-to="0" class="active"></li>
-								<li data-target="#media-carousel" data-slide-to="1"></li>
-								<li data-target="#media-carousel" data-slide-to="2"></li>
-								<li data-target="#media-carousel" data-slide-to="3"></li>
-								<li data-target="#media-carousel" data-slide-to="4"></li>
-								<li data-target="#media-carousel" data-slide-to="5"></li>
-								<li data-target="#media-carousel" data-slide-to="6"></li>
-								<li data-target="#media-carousel" data-slide-to="7"></li>
-								<li data-target="#media-carousel" data-slide-to="8"></li>
-								<li data-target="#media-carousel" data-slide-to="9"></li>
-								<li data-target="#media-carousel" data-slide-to="10"></li>
-								<li data-target="#media-carousel" data-slide-to="11"></li>
-								<li data-target="#media-carousel" data-slide-to="12"></li>
-								<li data-target="#media-carousel" data-slide-to="13"></li>
-								<li data-target="#media-carousel" data-slide-to="14"></li>
-								<li data-target="#media-carousel" data-slide-to="15"></li>
-								<li data-target="#media-carousel" data-slide-to="16"></li>
-								<li data-target="#media-carousel" data-slide-to="17"></li>
-							</ol>
-							<div class="carousel-inner">
-								<div class="carousel-item active" data-interval="2000" data-touch="true">
-									<img class="d-block w-100" src="https://res.cloudinary.com/abq-trails/image/upload/v1563667103/scott-wells/img/portfolio-lg-01.jpg" alt="slide">
-								</div>
-								<div class="carousel-item" data-interval="2000" data-touch="true">
-									<img class="d-block w-100" src="https://res.cloudinary.com/abq-trails/image/upload/v1563667101/scott-wells/img/portfolio-lg-03.jpg" alt="slide">
-								</div>
-								<div class="carousel-item" data-interval="2000" data-touch="true">
-									<img class="d-block w-100" src="https://res.cloudinary.com/abq-trails/image/upload/v1563667105/scott-wells/img/portfolio-lg-04.jpg" alt="slide">
-								</div>
-								<div class="carousel-item" data-interval="2000" data-touch="true">
-									<img class="d-block w-100" src="https://res.cloudinary.com/abq-trails/image/upload/v1563667106/scott-wells/img/portfolio-lg-06.jpg" alt="slide">
-								</div>
-								<div class="carousel-item" data-interval="2000" data-touch="true">
-									<img class="d-block w-100" src="https://res.cloudinary.com/abq-trails/image/upload/v1563667106/scott-wells/img/portfolio-lg-07.jpg" alt="slide">
-								</div>
-								<div class="carousel-item" data-interval="2000" data-touch="true">
-									<img class="d-block w-100" src="https://res.cloudinary.com/abq-trails/image/upload/v1563667108/scott-wells/img/portfolio-lg-08.jpg" alt="slide">
-								</div>
-								<div class="carousel-item" data-interval="2000" data-touch="true">
-									<img class="d-block w-100" src="https://res.cloudinary.com/abq-trails/image/upload/v1563667108/scott-wells/img/portfolio-lg-09.jpg" alt="slide">
-								</div>
-								<div class="carousel-item" data-interval="2000" data-touch="true">
-									<img class="d-block w-100" src="https://res.cloudinary.com/abq-trails/image/upload/v1563667107/scott-wells/img/portfolio-lg-11.jpg" alt="slide">
-								</div>
-								<div class="carousel-item" data-interval="2000" data-touch="true">
-									<img class="d-block w-100" src="https://res.cloudinary.com/abq-trails/image/upload/v1563667108/scott-wells/img/portfolio-lg-12.jpg" alt="slide">
-								</div>
-								<div class="carousel-item" data-interval="2000" data-touch="true">
-									<img class="d-block w-100" src="https://res.cloudinary.com/abq-trails/image/upload/v1563667108/scott-wells/img/portfolio-lg-13.jpg" alt="slide">
-								</div>
-								<div class="carousel-item" data-interval="2000" data-touch="true">
-									<img class="d-block w-100" src="https://res.cloudinary.com/abq-trails/image/upload/v1563667118/scott-wells/img/portfolio-lg-15.jpg" alt="slide">
-								</div>
-								<div class="carousel-item" data-interval="2000" data-touch="true">
-									<img class="d-block w-100" src="https://res.cloudinary.com/abq-trails/image/upload/v1563667113/scott-wells/img/portfolio-lg-17.jpg" alt="slide">
-								</div>
-								<div class="carousel-item" data-interval="2000" data-touch="true">
-									<img class="d-block w-100" src="https://res.cloudinary.com/abq-trails/image/upload/v1563667111/scott-wells/img/portfolio-lg-19.jpg" alt="slide">
-								</div>
-								<div class="carousel-item" data-interval="2000" data-touch="true">
-									<img class="d-block w-100" src="https://res.cloudinary.com/abq-trails/image/upload/v1563667108/scott-wells/img/portfolio-lg-10.jpg" alt="slide">
-								</div>
-								<div class="carousel-item" data-interval="2000" data-touch="true">
-									<img class="d-block w-100" src="https://res.cloudinary.com/abq-trails/image/upload/v1563667114/scott-wells/img/portfolio-lg-20.jpg" alt="slide">
-								</div>
-								<div class="carousel-item" data-interval="2000" data-touch="true">
-									<img class="d-block w-100" src="https://res.cloudinary.com/abq-trails/image/upload/v1563667115/scott-wells/img/portfolio-lg-21.jpg" alt="slide">
-								</div>
-								<div class="carousel-item" data-interval="2000" data-touch="true">
-									<img class="d-block w-100" src="https://res.cloudinary.com/abq-trails/image/upload/v1563667119/scott-wells/img/portfolio-lg-22.jpg" alt="slide">
-								</div>
-								<div class="carousel-item" data-interval="2000" data-touch="true">
-									<img class="d-block w-100" src="https://res.cloudinary.com/abq-trails/image/upload/v1563667121/scott-wells/img/portfolio-lg-28.jpg" alt="slide">
-								</div>
+	<!--DESIGN-->
+	<section id="work" class="coding">
+		<div class="row d-flex justify-content-center align-items-center pt-4">
+			<h1>FEATURED WORK</h1>
+		</div>
+		<div class="row d-flex justify-content-center align-items-center p-5">
+			<div class="col-lg-7 col-xl-6 pr-4 mb-5">
+				<div class="thumbnail">
+					<img class="img-fluid" src="https://res.cloudinary.com/abq-trails/image/upload/v1563667096/scott-wells/img/coding-abq-lg.jpg" alt="design work abq trails app" />
+				</div>
+			</div>
+			<div class="col-lg-5 col-xl-4">
+				<h2 class="mb-3">ABQ Trails</h2>
+				<p><span class="bold-it">An app that helps local residents</span> find popular hikes, or trails
+					near their location, with the ability search, tag and rate them.</p>
+				<p>New Mexico is known for it's stunning, natural landscapes, and Albuquerque is no exception.
+					This app serves to help the community explore their neighborhoods, connect with friends, and
+					encourage an active lifestyle.</p>
+				<p class="bold-it">See More >>></p>
+			</div>
+		</div>
+		<hr />
+		<div class="row d-flex justify-content-center align-items-center p-5">
+			<div class="col-lg-7 col-xl-6 pr-4 mb-5">
+				<div class="thumbnail">
+					<img class="img-fluid" src="https://res.cloudinary.com/abq-trails/image/upload/v1563667096/scott-wells/img/coding-scottw-lg.jpg" alt="design work scott wells redesign" />
+				</div>
+			</div>
+			<div class="col-lg-5 col-xl-4">
+				<h2 class="mb-3">Scott Wells<br /> Portfolio Redesign</h2>
+				<p><span class="bold-it">I have been a designer and photographer</span> for over ten years. Having
+					recently become a developer, I needed to update my portfolio to reflect my new work.</p>
+				<p>This site uses a Bootstrap framework for the content layout, and employs custom styling for the
+					fonts, colors, and icons. Javascript is also used to give key content on the website some added flair.</p>
+				<p class="bold-it">See More >>></p>
+			</div>
+		</div>
+		<hr />
+		<div class="row d-flex justify-content-center align-items-center p-5">
+			<div class="col-lg-7 col-xl-6 pr-4 mb-5">
+				<div class="thumbnail">
+					<img class="img-fluid" src="https://res.cloudinary.com/abq-trails/image/upload/v1563667098/scott-wells/img/coding-ewp-lg.jpg" alt="design work elizabeth wells photography" />
+				</div>
+			</div>
+			<div class="col-lg-5 col-xl-4">
+				<h2 class="mb-3">Elizabeth Wells Photography</h2>
+				<p><span class="bold-it">I was contracted to rebrand</span> and design a mobile-responsive
+					website that could be easily updated, and remain content friendly. I chose to design it in
+					Squarespace due to their emphasis on performance and visual design, which is perfect for a
+					photography business.</p>
+				<p class="bold-it">See More >>></p>
+			</div>
+		</div>
+	</section> <!-- end of design -->
+
+	<!--Graphic Break-->
+	<section class="graphic-02">
+		<div class="row d-flex justify-content-center align-items-center text-center py-5">
+			<div class="col-11 col-md-8 col-lg-6">
+				<p class="graphic-text">Certified, full stack developer and designer. <em><strong>Ready to help you</strong></em> with your next digital project!</p>
+				<div class="row d-flex justify-content-center">
+					<div class="col-6">
+						<a class="graphic-btn btn btn-block btn-outline-light mt-2" href="#contact" role="button">Learn More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--More Media-->
+	<section id="design" class="media">
+		</div>
+		<div class="container-fluid">
+			<div class="row d-flex justify-content-center mx-auto py-5">
+				<div class="media-slider col-lg-10 col-xl-8">
+					<div id="media-carousel" class="carousel slide" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#media-carousel" data-slide-to="0" class="active"></li>
+							<li data-target="#media-carousel" data-slide-to="1"></li>
+							<li data-target="#media-carousel" data-slide-to="2"></li>
+							<li data-target="#media-carousel" data-slide-to="3"></li>
+							<li data-target="#media-carousel" data-slide-to="4"></li>
+							<li data-target="#media-carousel" data-slide-to="5"></li>
+							<li data-target="#media-carousel" data-slide-to="6"></li>
+							<li data-target="#media-carousel" data-slide-to="7"></li>
+							<li data-target="#media-carousel" data-slide-to="8"></li>
+							<li data-target="#media-carousel" data-slide-to="9"></li>
+							<li data-target="#media-carousel" data-slide-to="10"></li>
+							<li data-target="#media-carousel" data-slide-to="11"></li>
+							<li data-target="#media-carousel" data-slide-to="12"></li>
+							<li data-target="#media-carousel" data-slide-to="13"></li>
+							<li data-target="#media-carousel" data-slide-to="14"></li>
+							<li data-target="#media-carousel" data-slide-to="15"></li>
+							<li data-target="#media-carousel" data-slide-to="16"></li>
+							<li data-target="#media-carousel" data-slide-to="17"></li>
+						</ol>
+						<div class="carousel-inner">
+							<div class="carousel-item active" data-interval="2000" data-touch="true">
+								<img class="d-block w-100" src="https://res.cloudinary.com/abq-trails/image/upload/v1563667103/scott-wells/img/portfolio-lg-01.jpg" alt="slide">
 							</div>
-							<a class="carousel-control-prev" href="#media-carousel" role="button" data-slide="prev">
-								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-								<span class="sr-only">Previous</span>
-							</a>
-							<a class="carousel-control-next" href="#media-carousel" role="button" data-slide="next">
-								<span class="carousel-control-next-icon" aria-hidden="true"></span>
-								<span class="sr-only">Next</span>
-							</a>
+							<div class="carousel-item" data-interval="2000" data-touch="true">
+								<img class="d-block w-100" src="https://res.cloudinary.com/abq-trails/image/upload/v1563667101/scott-wells/img/portfolio-lg-03.jpg" alt="slide">
+							</div>
+							<div class="carousel-item" data-interval="2000" data-touch="true">
+								<img class="d-block w-100" src="https://res.cloudinary.com/abq-trails/image/upload/v1563667105/scott-wells/img/portfolio-lg-04.jpg" alt="slide">
+							</div>
+							<div class="carousel-item" data-interval="2000" data-touch="true">
+								<img class="d-block w-100" src="https://res.cloudinary.com/abq-trails/image/upload/v1563667106/scott-wells/img/portfolio-lg-06.jpg" alt="slide">
+							</div>
+							<div class="carousel-item" data-interval="2000" data-touch="true">
+								<img class="d-block w-100" src="https://res.cloudinary.com/abq-trails/image/upload/v1563667106/scott-wells/img/portfolio-lg-07.jpg" alt="slide">
+							</div>
+							<div class="carousel-item" data-interval="2000" data-touch="true">
+								<img class="d-block w-100" src="https://res.cloudinary.com/abq-trails/image/upload/v1563667108/scott-wells/img/portfolio-lg-08.jpg" alt="slide">
+							</div>
+							<div class="carousel-item" data-interval="2000" data-touch="true">
+								<img class="d-block w-100" src="https://res.cloudinary.com/abq-trails/image/upload/v1563667108/scott-wells/img/portfolio-lg-09.jpg" alt="slide">
+							</div>
+							<div class="carousel-item" data-interval="2000" data-touch="true">
+								<img class="d-block w-100" src="https://res.cloudinary.com/abq-trails/image/upload/v1563667107/scott-wells/img/portfolio-lg-11.jpg" alt="slide">
+							</div>
+							<div class="carousel-item" data-interval="2000" data-touch="true">
+								<img class="d-block w-100" src="https://res.cloudinary.com/abq-trails/image/upload/v1563667108/scott-wells/img/portfolio-lg-12.jpg" alt="slide">
+							</div>
+							<div class="carousel-item" data-interval="2000" data-touch="true">
+								<img class="d-block w-100" src="https://res.cloudinary.com/abq-trails/image/upload/v1563667108/scott-wells/img/portfolio-lg-13.jpg" alt="slide">
+							</div>
+							<div class="carousel-item" data-interval="2000" data-touch="true">
+								<img class="d-block w-100" src="https://res.cloudinary.com/abq-trails/image/upload/v1563667118/scott-wells/img/portfolio-lg-15.jpg" alt="slide">
+							</div>
+							<div class="carousel-item" data-interval="2000" data-touch="true">
+								<img class="d-block w-100" src="https://res.cloudinary.com/abq-trails/image/upload/v1563667113/scott-wells/img/portfolio-lg-17.jpg" alt="slide">
+							</div>
+							<div class="carousel-item" data-interval="2000" data-touch="true">
+								<img class="d-block w-100" src="https://res.cloudinary.com/abq-trails/image/upload/v1563667111/scott-wells/img/portfolio-lg-19.jpg" alt="slide">
+							</div>
+							<div class="carousel-item" data-interval="2000" data-touch="true">
+								<img class="d-block w-100" src="https://res.cloudinary.com/abq-trails/image/upload/v1563667108/scott-wells/img/portfolio-lg-10.jpg" alt="slide">
+							</div>
+							<div class="carousel-item" data-interval="2000" data-touch="true">
+								<img class="d-block w-100" src="https://res.cloudinary.com/abq-trails/image/upload/v1563667114/scott-wells/img/portfolio-lg-20.jpg" alt="slide">
+							</div>
+							<div class="carousel-item" data-interval="2000" data-touch="true">
+								<img class="d-block w-100" src="https://res.cloudinary.com/abq-trails/image/upload/v1563667115/scott-wells/img/portfolio-lg-21.jpg" alt="slide">
+							</div>
+							<div class="carousel-item" data-interval="2000" data-touch="true">
+								<img class="d-block w-100" src="https://res.cloudinary.com/abq-trails/image/upload/v1563667119/scott-wells/img/portfolio-lg-22.jpg" alt="slide">
+							</div>
+							<div class="carousel-item" data-interval="2000" data-touch="true">
+								<img class="d-block w-100" src="https://res.cloudinary.com/abq-trails/image/upload/v1563667121/scott-wells/img/portfolio-lg-28.jpg" alt="slide">
+							</div>
 						</div>
+						<a class="carousel-control-prev" href="#media-carousel" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="carousel-control-next" href="#media-carousel" role="button" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
 					</div>
 				</div>
 			</div>
-		</section>
+		</div>
+	</section>
 
-		<!--About Me-->
-		<section id="about" class="about-me">
-			<div class="row d-flex justify-content-center align-items-center p-5">
-				<div class="col-md-5 col-xl-4 pr-4 mb-5">
-					<div class="thumbnail">
-						<img class="img-fluid" src="img/demo-scott-avatar.png" alt="Scott Wells">
-					</div>
-				</div>	
-				<div class="col-md-7 col-xl-6">
-					<h1>Hi, I'm Scott.</h1>
-					<p><span class="bold-it">Nice to meet you!</span> I am a web developer that specializes in websites
-						for makers, creatives, and small businesses. I am enthusiastic about finding simple solutions
-						to complex problems. If you need vision for your small business, clarity of design, or a well-crafted
-						website, let's have a conversation and see if I can help!</p>
-					<a class="btn btn-outline-dark" href="#contact" role="button">Learn More</a>
+	<!--About Me-->
+	<section id="about" class="about-me">
+		<div class="row d-flex justify-content-center align-items-center p-5">
+			<div class="col-md-5 col-xl-4 pr-4 mb-5">
+				<div class="thumbnail">
+					<img class="img-fluid" src="img/demo-scott-avatar.png" alt="Scott Wells">
 				</div>
 			</div>
-		</section>
-
-		
-		<!-- Contact -->
-		<section id="contact" class="contact d-flex align-items-center">
-			<div class="container-fluid py-5">
-
-				<form class="mx-auto col-lg-8" id="contact-form" name="contact" method="POST" data-netlify="true">
-					<h1>CONTACT</h1>
-					<div class="form-row my-5">
-						<div class="col">
-							<input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name*">
-						</div>
-						<div class="col">
-							<input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name*">
-						</div>
-					</div>
-					<div class="form-row mb-5">
-						<div class="col">
-							<input type="email" class="form-control" id="email" name="email" placeholder="Email*">
-						</div>
-					</div>
-					<div class="form-row mb-5">
-						<div class="col">
-							<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject*">
-						</div>
-					</div>
-					<div class="form-row">
-						<label for="message">How Can I Help You?</label>
-						<textarea class="form-control" id="message" name="message" rows="5" placeholder="I need help with..."></textarea>
-					</div>
-
-				<!-- reCAPTCHA 
-					<div class="g-recaptcha my-5" data-sitekey="6LfxJJQUAAAAAOMpbc9mlFfiYpqoOubedNCnnakJ"></div>
-				-->
-					<br>
-					<button type="submit" class="btn-lg btn-dark mb-5">Submit</button>
-				</form>
-
-				<!-- empty area for form error/success output  -->
-				<div class="mx-auto pb-5 col-lg-8" id="output-area"></div>
-
+			<div class="col-md-7 col-xl-6">
+				<h1>Hi, I'm Scott.</h1>
+				<p><span class="bold-it">Nice to meet you!</span> I am a web developer that specializes in websites
+					for makers, creatives, and small businesses. I am enthusiastic about finding simple solutions
+					to complex problems. If you need vision for your small business, clarity of design, or a well-crafted
+					website, let's have a conversation and see if I can help!</p>
+				<a class="btn btn-outline-dark" href="#contact" role="button">Learn More</a>
 			</div>
-		</section> 
-	
+		</div>
+	</section>
 
-		<footer>
-			<div class="container-fluid">
-				<div class="row d-flex justify-content-center align-items-center mx-auto text-center">
-					<div class="mt-2 p-3 col-xs-12 col-lg-4">
-						<p class="bold-it d-block mb-1">Scott Wells</p>
-						<a class="d-block" href="#top">Home</a>
-						<a class="d-block" href="#work">Work</a>
-						<a class="d-block" href="#design">Design</a>
-						<a class="d-block" href="#about">About</a>
-						<a class="d-block" href="#contact">Contact</a>
-					</div>
-					<div class="social-icons col-xs-12 col-lg-4 p-3">
-						<a class="p-3" href="https://github.com/scott-wells" target="_blank"><i class="fab fa-github"></i></a>
-						<a class="p-3" href="https://www.instagram.com/scott.m.wells" target="_blank"><i class="fab fa-instagram"></i></a>
-						<a class="p-3" href="https://www.linkedin.com/in/scott-wells-1a3119161/" target="_blank"><i class="fab fa-linkedin"></i></a>
-					</div>
-					<div class="copyright col-xs-12 col-lg-4 p-3">
-						<h1 class="mb-1">SCOTT WELLS</h1>
-						<p class="bold-it">©2019 All rights reserved.</p>
-					</div>
+
+	<!-- Contact -->
+	<section id="contact" class="contact">
+		<div class="row d-flex justify-content-center align-items-center text-center py-5">
+			<div class="col-11 col-md-8 col-lg-6">
+				<h1>CONTACT</h1>
+				<br>
+				<a class="p-3" href="mailto:contact@scott-wells.com" target="_blank">Email</a>
+				<a class="p-3" href="https://github.com/scott-wells" target="_blank">Github</a>
+				<a class="p-3" href="https://www.instagram.com/scott.m.wells" target="_blank">Instagram</a>
+				<a class="p-3" href="https://www.linkedin.com/in/scott-wells-1a3119161/" target="_blank">LinkedIn</a>
+			</div>
+		</div>
+	</section>
+
+
+	<footer>
+		<div class="container-fluid">
+			<div class="row d-flex justify-content-center align-items-center mx-auto text-center">
+				<div class="mt-2 p-3 col-xs-12 col-lg-4">
+					<p class="bold-it d-block mb-1">Scott Wells</p>
+					<a class="d-block" href="#top">Home</a>
+					<a class="d-block" href="#work">Work</a>
+					<a class="d-block" href="#design">Design</a>
+					<a class="d-block" href="#about">About</a>
+					<a class="d-block" href="#contact">Contact</a>
+				</div>
+				<div class="social-icons col-xs-12 col-lg-4 p-3">
+					<a class="p-3" href="https://github.com/scott-wells" target="_blank"><i class="fab fa-github"></i></a>
+					<a class="p-3" href="https://www.instagram.com/scott.m.wells" target="_blank"><i class="fab fa-instagram"></i></a>
+					<a class="p-3" href="https://www.linkedin.com/in/scott-wells-1a3119161/" target="_blank"><i class="fab fa-linkedin"></i></a>
+				</div>
+				<div class="copyright col-xs-12 col-lg-4 p-3">
+					<h1 class="mb-1">SCOTT WELLS</h1>
+					<p class="bold-it">©2019 All rights reserved.</p>
 				</div>
 			</div>
-		</footer> <!-- end of footer -->
+		</div>
+	</footer> <!-- end of footer -->
 
-	</body> <!-- END OF BODY -->
+</body> <!-- END OF BODY -->
+
 </html>
